@@ -30,7 +30,7 @@ cd /Applications/IDA\ Professional\ 9.0.app/Contents/MacOS
 cp idapythonrc.py /User/name/.idapro
 ```
 
-完整ida feeds支持
+完整ida feeds支持#目前会导致PyQt5无法被引用，从而加载失败
 ```
 cd /Applications/IDA\ Professional\ 9.0.app/Contents/MacOS/plugins/ida_feeds
 pip install -r requirements.txt

@@ -5,7 +5,7 @@ from pathlib import Path
 import site
 import sys
 
-mypath = "/Users/abbie/Documents/python3_venv"
+mypath = "/Users/{name}/Documents/python3_venv"
 
 PYTHON_VERSION = f"python{sys.version_info.major}.{sys.version_info.minor}"
 LIB_PATH = {
